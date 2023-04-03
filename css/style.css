@@ -1,0 +1,146 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#body {
+    width: 1280px;
+    margin: 5px auto;
+    height: auto;
+}
+header {
+    width: 1280px;
+    height: 480px;
+    background-image: url("../images/Header.jpg")
+}
+.header {
+    width: 300px;
+    float: left;
+    height: 80 px;
+}
+.header a{
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 45px;
+    color: blue;
+    cursor: pointer;
+}
+.plane {
+    color:burlywood;
+}
+.market{
+    color:brown;
+}
+.header p {
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color:white;
+}
+.auth {
+    width: 300px;
+    float:left;
+    margin-left: 650px;
+    /* margin-top: 10px; */
+    height: 100px;
+}
+.auth p {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+/* .auth a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+} */
+
+.reg {
+    width: 300px;
+    float:left;
+    margin-left: 650px;
+    /* margin-top: 10px; */
+    height: 100px;
+}
+
+.reg p {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+#menu {
+    width: 1280px;
+    margin: 10px auto;
+    height: auto;
+    background-color:cornflowerblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+li a{
+    float: left;
+    display: block;
+    color: whitesmoke;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid rgba(0, 0, 255, 0.500);
+    min-width: 60px;
+}
+li a:hover{
+    background-color: rgba(0, 0, 255, 0.500);
+}
+
+#field{
+    width: 1280px;
+    margin: 10px auto;
+    height: auto;   
+    background-color:cornflowerblue;
+    color:white;
+}
+#table{
+    width: 1280px; 
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table thead tr th{
+    cursor: pointer;
+    padding: 10px 15px;
+    min-width: 60px;
+    border-right: 1px solid rgba(0, 0, 255, 0.500);
+    border-bottom: 1px solid rgba(0, 0, 255, 0.500);
+}
+table thead tr th:hover{
+    background-color: rgba(0, 0, 255, 0.500);
+}
+
+/* #tbody_tr:hover{
+    background-color: cornflowerblue;
+} */
+
+table tbody tr td{
+    padding: 10px 15px;
+    border-right: 1px solid rgba(0, 0, 255, 0.500);
+    cursor: pointer;
+}
+table tbody tr:hover{
+    background-color: rgba(0, 0, 255, 0.500);
+}

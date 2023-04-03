@@ -1,0 +1,30 @@
+
+    // function login($db, $login, $password) {
+    //     $loginResult = mysqli_query($db, "SELECT * FROM auth WHERE login='$login' AND password='$password'");
+    //     $response = array();
+    
+    //     if (mysqli_num_rows($loginResult) > 0) {
+    //         $response += array(
+    //             "status" => true,
+    //             "message" => "Авторизация прошла успушно"
+    //         );
+    //         echo json_encode($response);
+    //         die();
+    //     } else {
+    //         $response += array(
+    //             "status" => false,
+    //             "message" => "Неправильный логин или пароль"
+    //         );
+    //         echo json_encode($response);
+    //         unset($_SESSION['login'], $_SESSION['password']);
+    //         // echo '<script> document.location.href = "../index.php"</script>';
+    //     }
+    // }
+
+    // if(isset($_POST['submit'])) {
+    //     if (isset($_POST['login']) && isset($_POST['password'])) {
+    //         $_SESSION['login'] = $_POST['login'];
+    //         $_SESSION['password'] = $_POST['password'];
+    //         login($db, $_SESSION['login'], $_SESSION['password']);
+    //     }
+    // }
